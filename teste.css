@@ -1,0 +1,54 @@
+section {
+    height: 100vh;
+    scroll-snap-align: start;
+    position: sticky;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+
+.interface {
+    height: 100vh;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+}
+
+.page1 {
+    background-image: url(imagens/carro1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 80PX;
+}
+
+.page2 {
+    background-image: url(imagens/carro2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60PX;
+}
+
+.page3 {
+    background-image: url(imagens/carro3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60PX;
+}
+
+.page4 {
+    background-image: url(imagens/carro4.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60PX;
+}
+
+.page5 {
+    background-image: url(imagens/carro5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 60PX;
+}
+
